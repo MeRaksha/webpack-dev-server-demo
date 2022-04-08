@@ -29,3 +29,23 @@ or pass it as a CLI argument:
 ```sh
 webpack --mode=development
 ```
+
+### Using source maps
+
+A source map provides a way of mapping code within a compressed file back to it’s original position in a source file.
+<code>devtool</code> option controls if and how source maps are generated.
+We can choose a style of source mapping to enhance the debugging process. These values differ in the build and rebuild speeds and . 
+
+
+```sh
+  mode: 'eval-source-map',
+```
+
+### Using webpack-dev-server
+The webpack-dev-server provides a web server as well as live reloading. Adding the below configuration in the webpack configThis tells webpack-dev-server to serve the files from the dist directory on localhost:8080
+```sh
+  devServer: {
+    static: './dist',
+  }
+```
+
