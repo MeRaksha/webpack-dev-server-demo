@@ -42,7 +42,7 @@ We can choose a style of source mapping to enhance the debugging process. These 
 ```
 
 ### Using webpack-dev-server
-The webpack-dev-server provides a web server as well as live reloading. Adding the below configuration in the webpack configThis tells webpack-dev-server to serve the files from the dist directory on localhost:8080
+The webpack-dev-server provides a web server as well as live reloading. Adding the below configuration in the webpack config tells webpack-dev-server to serve the files from the dist directory on localhost:8080
 ```sh
   devServer: {
     static: './dist',
