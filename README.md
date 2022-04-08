@@ -9,8 +9,7 @@
 ## To run the demo:
 
 - npm install
-- npm run build
-- npm serve
+- npm run start
 
 ### mode Configuration
 
